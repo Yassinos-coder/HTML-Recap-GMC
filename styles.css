@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 5px;
 }
 
 .div_heading {
-    background-color: whitesmoke;
+    background-color: black;
+    height: 70px;
 }
 
 .li_heading {
@@ -17,22 +21,40 @@ body {
     margin-right: 100px;
 }
 
-.nav_heading {}
+.h1_heading {
+    position: absolute;
+    margin-top: -9px;
+    color: white;
+    margin-left: 25px;
+}
 
 a {
     text-decoration: none;
     color: black;
     font-size: 18px;
-}
-
-a:hover {
-    color: red;
+    font-family: 'Pacifico', cursive;
 }
 
 button {
-    padding: 5px 15px;
+    padding: 5px 30px;
     background-color: white;
     border-radius: 8px;
     border: 1px solid #dddfe2;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+button:hover {
+    background-color: red;
+    border: 1px solid red;
+}
+
+#logo_heading {
+    margin-left: 900px;
+    position: absolute;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 75px;
+    height: 70px;
 }
