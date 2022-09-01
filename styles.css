@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.div_heading {
+    background-color: whitesmoke;
+}
+
+.li_heading {
+    display: inline-block;
+    padding: 2px;
+}
+
+.ul_heading {
+    float: right;
+    margin-right: 100px;
+}
+
+.nav_heading {}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+a:hover {
+    color: red;
+}
+
+button {
+    padding: 5px 15px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
