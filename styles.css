@@ -79,7 +79,7 @@ button:hover {
     margin-left: 563px;
     width: 800px;
     margin-top: 450px;
-    height: 457px;
+    height: 405px;
 }
 
 #above_vid {
@@ -92,9 +92,106 @@ button:hover {
     margin-left: 124px;
 }
 
+#txt_above_vid a {
+    text-decoration: none;
+    color: black;
+}
+
 #img_ytb {
     width: 163px;
     height: 100px;
     margin-left: 390px;
     margin-top: -83px;
+}
+
+
+/* Sections */
+
+#about {
+    background-color: black;
+    width: 500px;
+    margin-left: 28px;
+    height: 405px;
+    margin-top: -883px;
+    color: white;
+}
+
+#work {
+    position: absolute;
+    background-color: black;
+    width: 500px;
+    margin-left: 28px;
+    height: 406px;
+    margin-top: 42px;
+    color: white;
+}
+
+#resume {
+    background-color: black;
+    width: 500px;
+    margin-left: 1390px;
+    height: 405px;
+    margin-top: -428px;
+    color: white;
+}
+
+#contact {
+    position: absolute;
+    background-color: black;
+    width: 500px;
+    margin-left: 1390px;
+    height: 406px;
+    margin-top: 42px;
+    color: white;
+}
+
+
+/* Footer */
+
+#footer {
+    position: absolute;
+    background-color: black;
+    margin-top: 454px;
+    margin-left: 28px;
+    height: 42px;
+    width: 1863px;
+    color: white;
+}
+
+.p_footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/* FA ICONS  */
+
+.ig {
+    position: absolute;
+    margin-left: 1332px;
+    margin-top: -8px;
+}
+
+.git {
+    position: absolute;
+    margin-left: 1363px;
+    margin-top: -8px;
+}
+
+.fb {
+    position: absolute;
+    margin-left: 1396px;
+    margin-top: -8px;
+}
+
+.li {
+    position: absolute;
+    margin-left: 1431px;
+    margin-top: -8px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
 }
